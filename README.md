@@ -1,16 +1,56 @@
-# islamii
+# IslamiApp
 
-A new Flutter project.
+IslamiApp is a mobile application built using Flutter that provides users with Islamic content, including the Quran, Hadith, and radio stations. The app features multiple screens and supports theming and localization.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Quran Screen**: View and read the Quran.
+- **Hadith Screen**: Access Hadiths from various sources.
+- **Sabha Screen**: Display Tasbeeh (dhikr) counts.
+- **Radio Screen**: Listen to Islamic radio stations.
+- **Theme Support**: Light and dark themes.
+- **Localization**: Supports multiple languages.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+![Hadith Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/hadeth.PNG?raw=true)
+![Quran Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/quran.PNG?raw=true)
+![Sabha Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/sabha.PNG?raw=true)
+![Radio Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/radio.PNG?raw=true)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/YaraGaber/IslamiApp.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd IslamiApp
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+4. **Run the app:**
+
+    ```bash
+    flutter run
+    ```
+
+## API Integration
+
+- The Radio tab fetches data from an external API. Ensure that you have the necessary API key and access permissions.
+
+## Project Structure
+
+- **`lib/domain/`**: Contains domain models and use cases.
+- **`lib/data/`**: Includes data sources and repositories.
+- **`lib/ui/`**: Houses the presentation layer, including screens and widgets.
+
