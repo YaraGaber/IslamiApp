@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:islamii/home_screen/hadeth/hadeth.dart';
 import 'package:islamii/home_screen/quran/quran.dart';
+import 'package:islamii/home_screen/radio/radio.dart';
+import 'package:islamii/home_screen/sb7a/sb7a.dart';
 import 'package:islamii/home_screen/settings/setting.dart';
 import 'package:provider/provider.dart';
-import '../my_theme.dart';
-import 'package:islamii/home_screen/hadeth/hadeth.dart';
-import 'package:islamii/home_screen/sb7a/sb7a.dart';
-import 'package:islamii/home_screen/radio/radio.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../provider/app_provider.dart';
 
