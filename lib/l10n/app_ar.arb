@@ -1,0 +1,17 @@
+{
+  "app_title" : "اسلامي" ,
+  "sura_name" : "اسم السورة" ,
+  "versesNumber" : "عدد الايات" ,
+  "quran" : "القران" ,
+  "hadeth" : "الحديث",
+  "hadeth_name" : "اسم الحديث",
+  "radio" : "الاذاعة",
+  "tasbeh" : "السبحة",
+  "setting" : "الاعدادات" ,
+  "english" : "الانجليزية",
+  "arabic" : "العربية",
+  "language" : "اللغة",
+  "theme" : "النمط",
+  "light_mode" : "نهاري" ,
+  "dark_mode" : "ليلي"
+}
