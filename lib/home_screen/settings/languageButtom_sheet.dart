@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:provider/provider.dart';
 import 'package:islamii/provider/app_provider.dart';
+import 'package:provider/provider.dart';
 
 class LanguageBottomSheet extends StatefulWidget {
   @override
@@ -21,24 +21,26 @@ class _LanguageBottomSheetState extends State<LanguageBottomSheet> {
           InkWell(
             onTap: () {
               provider.chengeLanuage('en');
-              setState(() {}); // Rebuild the bottom sheet when the language changes
+              setState(
+                  () {}); // Rebuild the bottom sheet when the language changes
             },
             child: provider.applanguage == "en"
                 ? selectedItemWidget(
-                AppLocalizations.of(context)!.english, true)
+                    AppLocalizations.of(context)!.english, true)
                 : unselectedItemWidget(
-                AppLocalizations.of(context)!.english, false),
+                    AppLocalizations.of(context)!.english, false),
           ),
           SizedBox(height: 18),
           InkWell(
             onTap: () {
               provider.chengeLanuage('ar');
-              setState(() {}); // Rebuild the bottom sheet when the language changes
+              setState(
+                  () {}); // Rebuild the bottom sheet when the language changes
             },
             child: provider.applanguage == 'ar'
                 ? selectedItemWidget(AppLocalizations.of(context)!.arabic, true)
                 : unselectedItemWidget(
-                AppLocalizations.of(context)!.arabic, false),
+                    AppLocalizations.of(context)!.arabic, false),
           ),
         ],
       ),
@@ -52,10 +54,12 @@ class _LanguageBottomSheetState extends State<LanguageBottomSheet> {
         Text(
           text,
           style: Theme.of(context).textTheme.titleSmall?.copyWith(
-            color: Theme.of(context).primaryColor,
-          ),
+                color: Theme.of(context).primaryColor,
+              ),
         ),
-        isSelected ? Icon(Icons.check, size: 35, color: Theme.of(context).primaryColor) : SizedBox(),
+        isSelected
+            ? Icon(Icons.check, size: 35, color: Theme.of(context).primaryColor)
+            : SizedBox(),
       ],
     );
   }
