@@ -17,7 +17,7 @@ IslamiApp is a mobile application built using Flutter that provides users with I
 ![soura content ](https://github.com/YaraGaber/IslamiApp/blob/master/img/sura%20cont%20dark.PNG)
 ![Hadith Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/hadeth%20dark.PNG)
 ![hadeth content](https://github.com/YaraGaber/IslamiApp/blob/master/img/hadeth%20de%20dark.PNG)
-![Sabha Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/sab7a.PNG?raw=true)
+![Sabha Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/sab7a%20dark.PNG)
 ![Radio Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/radio%20dark.PNG)
 
 
