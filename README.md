@@ -12,13 +12,14 @@ IslamiApp is a mobile application built using Flutter that provides users with I
 - **Localization**: Supports multiple languages.
 
 ## Screenshots
-![Hadith Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/hadeth.PNG?raw=true)
-![Quran Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/quran.PNG?raw=true)
+![splash screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/splash%20dark.PNG)
+![Quran Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/quran%20dark.PNG)
+![soura content ](https://github.com/YaraGaber/IslamiApp/blob/master/img/sura%20cont%20dark.PNG)
+![Hadith Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/hadeth%20dark.PNG)
+![hadeth content](https://github.com/YaraGaber/IslamiApp/blob/master/img/hadeth%20de%20dark.PNG)
 ![Sabha Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/sab7a.PNG?raw=true)
-![Radio Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/radio.PNG?raw=true)
-![dark theme](https://github.com/YaraGaber/IslamiApp/blob/master/img/dark%20theme.PNG?raw=true)
-![light thmeme](https://github.com/YaraGaber/IslamiApp/blob/master/img/light%20theme.PNG?raw=true)
-![quran content](https://github.com/YaraGaber/IslamiApp/blob/master/img/sura%20%20content.PNG?raw=true)
+![Radio Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/radio%20dark.PNG)
+
 
 
 ## Installation
