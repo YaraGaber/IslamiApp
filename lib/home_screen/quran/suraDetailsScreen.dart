@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:islamii/my_theme.dart';
+import 'package:islamii/Theme/my_theme.dart';
 import 'package:provider/provider.dart';
 
 import '../../provider/app_provider.dart';

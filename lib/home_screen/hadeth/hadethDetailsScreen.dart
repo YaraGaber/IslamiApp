@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../my_theme.dart';
+import '../../Theme/my_theme.dart';
 import '../../provider/app_provider.dart';
 import 'hadeth.dart';
 import 'hadethItemDetails.dart';

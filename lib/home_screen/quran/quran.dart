@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:islamii/home_screen/hadeth/contant_quran.dart'; // Assuming this is the correct import for contant_quran.dart
 import 'package:islamii/home_screen/quran/suraItem.dart';
-import 'package:islamii/my_theme.dart';
+import 'package:islamii/Theme/my_theme.dart';
 import 'package:provider/provider.dart';
 
 import '../../provider/app_provider.dart';

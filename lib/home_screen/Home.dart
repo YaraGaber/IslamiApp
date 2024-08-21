@@ -82,5 +82,5 @@ class _Home extends State<Home> {
     );
   }
 
-  List<Widget> tabs = [Quran(), Sbha(), HadethTab(), Radio1(), Settings()];
+  List<Widget> tabs = [Quran(), Sbha(), HadethTab(), RadioScreen(), Settings()];
 }
