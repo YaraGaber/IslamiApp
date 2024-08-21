@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:islamii/Theme/my_theme.dart';
 import 'package:islamii/home_screen/radio/radio_model.dart';
+import 'package:islamii/provider/app_provider.dart';
 import 'package:provider/provider.dart';
+
 import 'RadioService.dart';
 import 'audio_service.dart';
-import 'package:islamii/provider/app_provider.dart';
 
 class RadioScreen extends StatefulWidget {
   @override
@@ -52,14 +53,6 @@ class _RadioScreenState extends State<RadioScreen> {
   Widget build(BuildContext context) {
     provider = Provider.of<AppProvider>(context);
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'Radio',
-          style: TextStyle(
-            color: provider.isDark() ? MyTheme.yallow : MyTheme.black ,
-          ),
-        ),
-      ),
       body: FutureBuilder<List<RadioStation>>(
         future: _futureRadioStations,
         builder: (context, snapshot) {
@@ -76,10 +69,14 @@ class _RadioScreenState extends State<RadioScreen> {
               itemBuilder: (context, index) {
                 final station = radioStations[index];
                 return ListTile(
-                  subtitle: Text(station.name,style:TextStyle(
-                    color: provider.isDark() ? MyTheme.yallow : MyTheme.black , )),
+                  subtitle: Text(station.name,
+                      style: TextStyle(
+                          color: provider.isDark()
+                              ? MyTheme.yallow
+                              : MyTheme.black,
+                          fontSize: 20)),
                   trailing: Icon(
-                    color:provider.isDark() ? MyTheme.yallow : MyTheme.black ,
+                    color: provider.isDark() ? MyTheme.yallow : MyTheme.black,
                     _currentPlayingUrl == station.url
                         ? (_isPlaying ? Icons.pause : Icons.play_arrow)
                         : Icons.play_arrow,
