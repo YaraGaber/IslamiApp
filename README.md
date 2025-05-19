@@ -12,7 +12,7 @@ IslamiApp is a mobile application built using Flutter that provides users with I
 - **Localization**: Supports multiple languages.
 
 ## Screenshots
-![splash screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/splash%20dark.PNG)
+![splash screen](https://github.com/YaraGaber/IslamiApp/blob/development/img/splash%20dark.PNG?raw=true)
 ![Quran Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/quran%20dark.PNG)
 ![soura content ](https://github.com/YaraGaber/IslamiApp/blob/master/img/sura%20cont%20dark.PNG)
 ![Hadith Screen](https://github.com/YaraGaber/IslamiApp/blob/master/img/hadeth%20dark.PNG)
